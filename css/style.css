@@ -1,0 +1,25 @@
+.blogarticle{position:relative;}
+
+.blogarticle:hover .edit {
+	display: block;
+}
+
+.edit {
+	padding-top: 7px;	
+	padding-right: 15px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.edit a {
+	color: #000;
+}
+.create{font-size:15px;}
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-form{  display:none; }
+}
